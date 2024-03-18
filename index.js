@@ -14,5 +14,5 @@ const server = http.createServer((request, response) => {
 });
 
 server.listen(port, host, () =>
-  console.log(chalk.greenBright(`Server is running on http://${host}:${port}`))
+  console.log(chalk.blueBright(`Server is running on http://${host}:${port}`))
 );
